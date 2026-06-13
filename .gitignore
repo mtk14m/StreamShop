@@ -1,0 +1,62 @@
+# --- Système d'exploitation ---
+.DS_Store
+Thumbs.db
+*.swp
+desktop.ini
+
+# --- Environnements de développement (IDE) ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- .NET / C# ---
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+.vs/
+
+# NuGet Packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# MSTest / Unit Tests
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# --- Node.js / JavaScript ---
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# --- Logs et fichiers temporaires ---
+logs/
+*.log
+tmp/
+temp/
+*.bak
+*.cache
+*.tmp
+
+# --- Variables d'environnement (Sécurité) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
